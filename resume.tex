@@ -1,0 +1,313 @@
+%-------------------------
+% Resume in Latex
+% Author :  Akshat Adsule
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Akshat Adsule} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:12244243003}{+1 224 424 3003}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:akshat@adsule.net}{akshat@adsule.net}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/AkshatAdsule}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/AkshatAdsule}{GitHub}
+    $|$
+    \faGlobe \hspace{.5pt} \href{https://drive.google.com/file/d/1SgYOPmmhMfv3nt2YYVv_pZNoxJ1BIq9P/view?usp=sharing}{Portfolio}
+    $|$
+    \faMapMarker \hspace{.5pt} San Francisco Bay Area
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeEducationHeading
+      {University of California, Davis
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{Davis, California}
+      {B.S in Computer Science and Engineering;   \textbf{GPA: 4.00}}{Sep 2018 \textbf{--} Jun 2026 (Expected)} {}{}
+      
+        % \resumeItemListStart
+            % \resumeItem{\textbf{Relevant coursework:} Calculus I-II, Matrix Theory, Differential Equations, Materials Science, Electrical Circuits I-II, Digital System Design, Numerical Methods, Probability Theory, Electronics I-II, Signals and Systems, Electromagnetic Field Theory, Energy Conversion, System Dynamics and Control, Communication Engineering}
+        % \resumeItemListEnd
+    
+    \resumeSubheading
+      {Homestead High School
+      % \normalfont{(Admission rate: 0.85\%)}
+      }{Cupertino, California}
+      {High School Diploma;   \textbf{GPA: 4.00}}{Aug 2018 \textbf{--} Jun 2022}
+    
+  \resumeSubHeadingListEnd
+
+%----------- WORK EXPERIENCE -----------
+
+\section{Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {American Wild Horse Campaign }{Davis, California}
+      {Software Development Intern}{Jun 2023 \textbf{--} Present}
+        \resumeItemListStart
+            \resumeItem{Developed a full-stack mobile application to develop an AI processing pipeline in collaboration with WildMe to identify wild horses in the field}
+            \resumeItem{Implemented ML models into the back-end to ensure image validity and quality whilst removing unwanted \& dangerous content}
+            \resumeItem{Worked on a custom cross-platform mobile application for AWHC members to contribute their photos to the AI processing pipeline \& maintain a connection with the organization}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Google Developer Student Club at UC Davis}{Davis, California}
+      {Executive Technology Lead}{Oct 2022 \textbf{--} Jun 2023}
+        \resumeItemListStart
+            \resumeItem{Lead a small group of fellow student-developers and project-managed development of various solutions relevant to the local student community}
+            \resumeItem{Built a full-stack mobile application to help students find and connect other students with similar interests}
+            \resumeItem{Designed and developed a full-stack mobile application to address food wastage by allowing groups of students to track and use leftover food}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+        {The STEAM Org}{Cupertino, California}
+        {Co-President \& Technology Lead}{Jan 2021 \textbf{--} Jun 2022}
+          \resumeItemListStart
+              \resumeItem{Led a team of 20+ student volunteers to deliver STEAM education and engagement to students in the Bay Area}
+              \resumeItem{Managed the development low-cost DIY educational kits relating to STEAM topics, such as a DIY robotics kit, to both teach and interest students in STEAM}
+              \resumeItem{Hosted a week-long series of summer workshops targeted to over one hundred middle and elementary aged kids with 10+ sessions on various STEAM topics}
+          \resumeItemListEnd
+    
+    \resumeSubheading
+        {Wiley Robotics}{Cupertino, California}
+        {Teacher \& Mentor}{Feb 2021 \textbf{--} Jul 2022}
+          \resumeItemListStart
+              \resumeItem{Developed and taught a curriculum to teach a group of 10+ middle \& elementary school students the basics of robotics and programming}
+              \resumeItem{Specific topics covered included: robotics, python, game development, and web development}
+              \resumeItem{Met weekly with students to accumalate over 50 hours of teaching experience}
+          \resumeItemListEnd
+    
+    \resumeSubheading
+        {Homestead Robotics (FRC 670)}{Cupertino, California}
+        {Member; Technology Project Lead; Stratergy \& Scouting Lead}{Sep 2020 \textbf{--} Jun 2022}
+          \resumeItemListStart
+              \resumeItem{Worked in a team of 50+ members to design, build, and program a robot to compete in the FIRST Robotics Competition}
+              \resumeItem{As Technology Project Lead, led the development of our team's robot software. Some projects include: target recognition, autonomous path planning, and robot control systems}
+              \resumeItem{Developed and hosted multiple workshops per week to teach members about various topics relating to robotics and programming}
+              \resumeItem{As Strategy \& Scouting Lead, led development of a custom scouting app to help our team collect and analyze data on other teams during competitions}
+              \resumeItem{Collaborated with other teams to determine the overall strategy of our robot and our team during build season and during competition.}
+          \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+
+%----------- AWARDS & ACHIEVEMENTS -----------
+
+\section{Awards \& Achievements}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Dean's Honor List: }{Achieved a grade point average higher than the minimum grade point average attained by the upper 16\% of those registered in the same class level and college during for all my quarters at UC Davis thus far.} \\ \vspace{3pt}
+        
+        \textbf{Best AWHC Hack:}{ Awarded my team during HackDavis 2023 for developing the best solution to collect data for the American Wild Horse Campaign.} \\ \vspace{3pt}
+        
+        \textbf{AP Scholar with Distinction:}{ Awarded to to students who receive an average score of at least 3.5 on all AP Exams taken, and scores of 3 or higher on five or more of these exams.} \\ \vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+        {\textbf{Do It} $|$ \emph{\href{https://github.com/AkshatAdsule/doit}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{A web application that allows users to create and manage tasks, and also allows users to collaborate with others on tasks.}
+            \resumeItem{Published on the Web with over five hundred site visits in the first 6 months of release.}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Blood Pressure Monitor} $|$ \emph{\href{https://github.com/AkshatAdsule/bp_monitor}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Built and published a cross-platform mobile app, initially for my grandparents, that
+            helped users track their blood pressure and heart rate over time.}
+            \resumeItem{Published on Google Play Store with over one hundred global installs in the first 3 months of release}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{FRC 670 Robot Code} $|$ \emph{\href{https://github.com/HHS-Team670/2022-Robot}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Most successful robot in 670 history, delivering out first-ever competition win}
+            \resumeItem{Development of control systems for all robot subsystems}
+            \resumeItem{Development of driver code for our new omni directional drivebase}
+            \resumeItem{Development of new control schema and dashboards for drivers}
+            \resumeItem{Development of autonomous path planning and vision systems}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{The Mustang Alliance} $|$ \emph{\href{https://play.google.com/store/apps/details?id=com.homestead.mustangapp}{\color{blue}Google Play}}}{}
+          \resumeItemListStart
+            \resumeItem{Led development for a cross-platform mobile app development during the 2020 Pandemic}
+            \resumeItem{Allows our team to record and analyze the performance of other teams during a competition to determine optimal strategies and team alliances}
+            \resumeItem{Enables scouters to record data on other teams during matches, and then analyze the data to determine the best teams to partner with and indentify weaknesses in other teams}
+          \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Programming:}{ C, C++, Java, Python, Rust, Javascript/Typescript, Go, HTML/CSS} \\ \vspace{3pt}
+        
+        \textbf{Technologies:}{ Git, Arduino, Linux, Web Development, App Development, Angular, React, Svelte, NextJS, GCP, Azure, Firebase, Supabase, Flutter, React Native, SQL, MongoDB} \\ \vspace{3pt}
+
+        \textbf{Professional:}{ Project Management, Team Management, Leadership }
+        
+        \textbf{Languages:}{ English (Native), Marathi (Native), Hindi (Native), Spanish (Professional) } \\ \vspace{3pt}
+        
+        % \textbf{Frameworks}{: X, X, X} \\
+        % \textbf{Developer Tools}{: X, X, X} \\
+        % \textbf{Libraries}{: X, X, X} \\
+        % \textbf{Applications}{: X, X, X}
+    }}
+  \resumeSubHeadingListEnd
+
+\end{document}

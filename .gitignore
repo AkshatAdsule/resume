@@ -1,3 +1,5 @@
-resume.*
-!resume.tex
+*
+!resume.typ
+!resume.pdf
+!.gitignore
 .vscode

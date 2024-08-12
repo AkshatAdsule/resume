@@ -122,7 +122,7 @@ On the other hand, there is a risk that somebody out there is still printing sta
   date: "June 2026 (Expected)",
   gpa: "3.9 of 4.0, Dean's List",
   degrees: (
-    ("Bachelor's of Science.", "Computer Seicne & Engineering"),
+    ("Bachelor's of Science.", "Computer Science & Engineering"),
     ("Minors", "Mathematics")
   ),
 )

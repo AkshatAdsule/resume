@@ -27,6 +27,9 @@
 #skills((
   ("Expertise", (
     [Mobile Development],
+    [Web Development],
+    [Backend Development],
+    [Full-Stack Development],
     [Project Management],
     [Technical Writing],
     [Team Leadership],
@@ -34,7 +37,11 @@
   ("Technologies & Platforms", (
     [Git],
     [Android],
+    [Kotlin],
     [iOS],
+    [Swift],
+    [SwiftUI],
+    [Objective-C],
     [Flutter],
     [React],
     [Docker],
@@ -49,7 +56,7 @@
     [RESTful APIs],
     [Container Orchestration],
     [CI/CD Pipelines],
-    [Agile Development],
+    [Agile Development]
   )),
   ("Languages", (
     [C++],

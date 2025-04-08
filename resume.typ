@@ -51,7 +51,7 @@
       [AWS],
       [Google Cloud Platform],
       [Firebase],
-      [\*SQL],
+      [SQL],
       [Linux],
     ),
   ),
@@ -81,7 +81,7 @@
   details: [
     - Worked with students and senior developers to maintain MyInfoVault, an all-encompassing platform for academic personnel
     - Developed 10+ new features in a complex and mature Java Spring web application as per the needs of actual users
-    - Collaborated on an ongoing UI refresh and transitioned existing JSP pages to modern technologies such as Vue.js and Angular
+    - Collaborated on an ongoing UI refresh and transitioned existing JSP pages to modern technologies such as Vue.js
   ],
 )
 
